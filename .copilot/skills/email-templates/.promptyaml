@@ -1,0 +1,17 @@
+name: email-templates
+description: Skill for designing, testing, and maintaining email templates
+topics:
+  - templates
+  - html
+  - email
+  - testing
+  - flask
+applyTo:
+  - path: "templates/**"
+  - path: "**/*template*.py"
+languageDetection:
+  preferredLanguage: python
+  patterns:
+    - "render_template"
+    - "template"
+    - "subject"
